@@ -31,7 +31,7 @@ hr {
   border: 1px solid #fff;
 }
 
-#headercards {
+#headercards{
   display: flex;
   justify-content: space-around;
 }
@@ -48,4 +48,59 @@ hr {
 #verticalLine {
   border-right: 3px solid #fff;
   height: 90%;
+}
+
+#firstSection {
+  margin: 4rem 0;
+}
+
+#firstSection h1, h4{
+  text-align: center;
+}
+
+#firstSection h1 {
+  font-size: 2.5rem;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+#firstSection h4 {
+  color: #008005;
+  font-size: 1.5rem;
+}
+
+.firstSectionFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstSectionFlexItem {
+  width: 30%;
+}
+
+.firstRow {
+  margin-bottom: 3rem;
+}
+
+.firstSectionFlexItem p {
+  line-height: 2rem;
+}
+
+.firstSectionFlexItem h5 {
+  font-size: 1.5rem;
+}
+
+.icons {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.brush , .megaphone{
+  left: 5%;
+}
+
+.object, .globe {
+  right: 41%;
 }
